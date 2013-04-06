@@ -1,0 +1,4 @@
+code/Magehacksf/Kindred	app/code/local/Magehacksf/Kindred/
+modules/Magehacksf_Kindred.xml	app/etc/modules/Magehacksf_Kindred.xml
+design/frontend/layout/Kindred.xml	app/design/frontend/base/default/layout/Kindred.xml
+design/frontend/template/	app/design/frontend/base/default/template/kindred/

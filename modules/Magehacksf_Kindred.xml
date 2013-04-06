@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <Magehacksf_Kindred>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Magehacksf_Kindred>
+    </modules>
+</config>

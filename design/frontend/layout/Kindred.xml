@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<layout version="0.0.1">
+
+    <catalog_product_view>
+        <reference name="product.info.additional">
+            <block type="kindred/product_list_kindred" name="product.info.kindred" as="kindred_products" template="kindred/product/list/kindred.phtml"/>
+        </reference>
+    </catalog_product_view>
+
+</layout>
