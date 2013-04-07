@@ -22,11 +22,16 @@
  * @package     base_default
  * @copyright   Copyright (c) 2012 Magento Inc. (http://www.magentocommerce.com)
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ *
+ * @see Magehacksf_Kindred_Block_Product_List_Kindred
+ * @var $this Magehacksf_Kindred_Block_Product_List_Kindred
  */
 ?>
 <div class="box-collateral box-up-sell box-kindred">
 	<h2><?php echo $this->__('You may also like these lovely kindred products!') ?></h2>
 	<div>
 		<p>products will list in side of here</p>
+		<p><?php echo $this->getMongoUrl(); ?></p>
+		<p><?php echo $this->getMongoApiKey(); ?></p>
 	</div>
 </div>

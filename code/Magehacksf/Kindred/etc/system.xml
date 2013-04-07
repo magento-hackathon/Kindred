@@ -25,7 +25,7 @@
                             <show_in_store>1</show_in_store>
                         </enable>
                         <mongourl>
-                            <label>MongoDB URL</label>
+                            <label>Mongolabs instance URL</label>
                             <frontend_type>text</frontend_type>
                             <sort_order>20</sort_order>
                             <show_in_default>1</show_in_default>
@@ -33,13 +33,37 @@
                             <show_in_store>1</show_in_store>
                         </mongourl>
                         <mongoapikey>
-                            <label>MongoDB Api Key</label>
+                            <label>Mongolabs Api Key</label>
                             <frontend_type>text</frontend_type>
                             <sort_order>30</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
                         </mongoapikey>
+                        <mongodb>
+                            <label>MongoDB URI</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </mongodb>
+                        <mongodbusername>
+                            <label>MongoDB Username</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>50</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </mongodbusername>
+                        <mongodbpassword>
+                            <label>MongoDB Password</label>
+                            <frontend_type>obscure</frontend_type>
+                            <sort_order>60</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </mongodbpassword>
                     </fields>
                 </general>
             </groups>
